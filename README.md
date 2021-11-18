@@ -58,32 +58,32 @@ https://github.com/Kurtyanik/LR6/ (Fork).
     7  git log
     8  git checkout branch1
     9  git log
-   10  git checkout report
-   11  git log
-   12  git checkout master
-   13  git log -1
-   14  git merge branch1
-   15  cat mergefile.txt
-   16  git mergetool
-   17  git commit -m "Vipolnenie punkta 9: merge conflict"
-   18  git merge branch1
-   19  git branch -d branch1
-   20  echo "Text 1 file" > file1.txt
-   21  git add file1.txt
-   22  git commit -m "Vipolnenie punkta 11: sozdanie file1.txt"
-   23  cat > file2.txt
-   24  git add file2.txt
-   25  git commit -m "Vipolnenie punkta 11: sozdanie file2.txt"
-   26  cat > file3.txt
-   27  git add file3.txt
-   28  git commit -m "Vipolnenie punkta 11: sozdanie file3.txt"
-   29  git log
-   30  git reset --hard 2ddc464
-   31  git log
-   32  git branch 4017_mikhaylov_sa
-   33  git checkout 4017_mikhaylov_sa
-   34  md screens
-   35  mkdir screens
-   36  touch readme_new.md
-   37  git log --pretty=format:"%h: %ad, %an: %s"
-   38  history
+    10  git checkout report
+    11  git log
+    12  git checkout master
+    13  git log -1
+    14  git merge branch1
+    15  cat mergefile.txt
+    16  git mergetool
+    17  git commit -m "Vipolnenie punkta 9: merge conflict"
+    18  git merge branch1
+    19  git branch -d branch1
+    20  echo "Text 1 file" > file1.txt
+    21  git add file1.txt
+    22  git commit -m "Vipolnenie punkta 11: sozdanie file1.txt"
+    23  cat > file2.txt
+    24  git add file2.txt
+    25  git commit -m "Vipolnenie punkta 11: sozdanie file2.txt"
+    26  cat > file3.txt
+    27  git add file3.txt
+    28  git commit -m "Vipolnenie punkta 11: sozdanie file3.txt"
+    29  git log
+    30  git reset --hard 2ddc464
+    31  git log
+    32  git branch 4017_mikhaylov_sa
+    33  git checkout 4017_mikhaylov_sa
+    34  md screens
+    35  mkdir screens
+    36  touch readme_new.md
+    37  git log --pretty=format:"%h: %ad, %an: %s"
+    38  history
